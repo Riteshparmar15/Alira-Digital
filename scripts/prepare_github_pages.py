@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Prepares the site/ folder for GitHub Pages deployment:
+Prepares the repository for GitHub Pages deployment:
 - Ensures .nojekyll is present.
-- If deployed to a subpath (e.g. /my-repo), adjusts absolute paths in HTML and sitemap.
+- If deployed to a subpath (e.g. /Alira-Digital), adjusts absolute paths in HTML and JS.
 - Leaves local files intact when base_path is empty or '/'.
 """
 import sys
@@ -23,12 +23,12 @@ def main():
 
     print(f"[GitHub Pages] Adapting site for subpath: {base_path}")
 
-    site_dir = "site"
-    html_files = glob.glob(f"{site_dir}/**/*.html", recursive=True)
+    # Process all HTML files
+    html_files = [f for f in glob.glob("**/*.html", recursive=True) if not f.startswith(".")]
 
-    # Patterns to prefix: href="/...", src="/..."
-    # Excluding external links (http, https, //)
-    attr_pattern = re.compile(r'((?:href|src|content|url)=")(/(?!/|assets|build|about|services|projects|areas|custom|online|mobile|website|industries|faq|contact|privacy|blog|favicon|apple)[^"]*|/(?:assets|build|about-us|services|projects|areas-we-serve|custom-erp-system|online-platform-development|mobile-app-development|website-design|custom-erp-guide|industries|faq|contact|privacy-policy|blog|favicon\.ico|apple-touch-icon\.png)[^"]*)(")')
+    attr_pattern = re.compile(
+        r'((?:href|src|content|url)=")(/(?!/|assets|build|about|services|projects|areas|custom|online|mobile|website|industries|faq|contact|privacy|blog|favicon|apple|local-demo)[^"]*|/(?:assets|build|about-us|services|projects|areas-we-serve|custom-erp-system|online-platform-development|mobile-app-development|website-design|custom-erp-guide|industries|faq|contact|privacy-policy|blog|favicon\.ico|apple-touch-icon\.png|local-demo\.js)[^"]*)(")'
+    )
 
     updated_count = 0
     for file_path in html_files:
@@ -44,9 +44,10 @@ def main():
             return f"{prefix}{base_path}{val}{suffix}"
 
         new_content = attr_pattern.sub(replacer, content)
-        
-        # Also adjust canonical and schema urls
-        new_content = new_content.replace('window.location.replace(\'/\'', f'window.location.replace(\'{base_path}/\'')
+
+        # Also adjust canonical, schema and reload redirects
+        new_content = new_content.replace("window.location.replace('/')", f"window.location.replace('{base_path}/')")
+        new_content = new_content.replace("window.location.pathname !== '/'", f"window.location.pathname !== '{base_path}/'")
         new_content = new_content.replace('href="/"', f'href="{base_path}/"')
 
         if new_content != content:
@@ -56,6 +57,24 @@ def main():
 
     print(f"[GitHub Pages] Successfully adapted {updated_count} HTML files with base_path: {base_path}")
 
+    # Process local-demo.js if present
+    if os.path.exists("local-demo.js"):
+        with open("local-demo.js", 'r', encoding='utf-8') as f:
+            demo_c = f.read()
+        demo_c = demo_c.replace("window.location.replace('/')", f"window.location.replace('{base_path}/')")
+        demo_c = demo_c.replace("window.location.pathname !== '/'", f"window.location.pathname !== '{base_path}/'")
+        with open("local-demo.js", 'w', encoding='utf-8') as f:
+            f.write(demo_c)
+        print("[GitHub Pages] Updated local-demo.js")
+
+    # Process app JS bundles for route matching
+    for js_file in glob.glob("build/assets/app-*.js"):
+        with open(js_file, 'r', encoding='utf-8') as f:
+            js_c = f.read()
+        js_c = js_c.replace('f.pathname.replace(/^\\/(ms|zh)(?=\\/|$)/,"")', f'f.pathname.replace(/^(\\{base_path})?\\/(ms|zh)?(?=\\/|$)/,"")')
+        with open(js_file, 'w', encoding='utf-8') as f:
+            f.write(js_c)
+        print(f"[GitHub Pages] Updated route parser in {js_file}")
+
 if __name__ == '__main__':
     main()
-

@@ -10,3 +10,4 @@ echo Check your deployment status here:
 echo https://github.com/Riteshparmar15/Alira-Digital/actions
 echo.
 pause
+
