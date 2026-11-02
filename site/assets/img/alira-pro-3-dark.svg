@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 48" width="210" height="48" fill="none">
+  <!-- Mark: Monogram A+D -->
+  <g transform="translate(4, 7)">
+    <!-- The 'A' loop and 'D' curve -->
+    <path d="M4 31 L16 3 L24 3 C30.6 3 36 8.4 36 15 C36 21.6 30.6 27 24 27 L18 27 L16 31 L8 31 L14 19 L19 9 L23 9 C27 9 30 11.7 30 15 C30 18.3 27 21 23 21 L17 21 L12 31 L4 31 Z" fill="#0A282D" />
+    <!-- Creative light spark dot -->
+    <circle cx="23" cy="15" r="3" fill="#10B981" />
+  </g>
+  <!-- Wordmark -->
+  <text x="48" y="26" font-family="'Outfit', -apple-system, sans-serif" font-weight="700" font-size="20" letter-spacing="1.5" fill="#0A282D">ALIRA</text>
+  <text x="48" y="38" font-family="'JetBrains Mono', monospace" font-weight="500" font-size="8.5" letter-spacing="3.2" fill="#10B981">DIGITAL</text>
+</svg>

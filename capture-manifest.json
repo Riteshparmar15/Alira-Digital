@@ -1,0 +1,624 @@
+{
+  "source": "https://potadot.com.my",
+  "captured": "2026-10-29",
+  "files": [
+    {
+      "url": "https://potadot.com.my",
+      "file": "site/index.html",
+      "bytes": 69100,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/about-us",
+      "file": "site/about-us/index.html",
+      "bytes": 49126,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/apple-touch-icon.png",
+      "file": "site/apple-touch-icon.png",
+      "bytes": 8247,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/areas-we-serve",
+      "file": "site/areas-we-serve/index.html",
+      "bytes": 33346,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/favicon-192.png",
+      "file": "site/assets/img/favicon-192.png",
+      "bytes": 13813,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/favicon-32x32.png",
+      "file": "site/assets/img/favicon-32x32.png",
+      "bytes": 1654,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/fitcom-portal-1.webp",
+      "file": "site/assets/img/fitcom-portal-1.webp",
+      "bytes": 97748,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/mark-light.svg",
+      "file": "site/assets/img/mark-light.svg",
+      "bytes": 8635,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/mark.svg",
+      "file": "site/assets/img/mark.svg",
+      "bytes": 8631,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/travel-dash.webp",
+      "file": "site/assets/img/travel-dash.webp",
+      "bytes": 50988,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/waste-login.webp",
+      "file": "site/assets/img/waste-login.webp",
+      "bytes": 79434,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/web-collage.webp",
+      "file": "site/assets/img/web-collage.webp",
+      "bytes": 183064,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/wordmark-white.webp",
+      "file": "site/assets/img/wordmark-white.webp",
+      "bytes": 4578,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/wordmark.webp",
+      "file": "site/assets/img/wordmark.webp",
+      "bytes": 4570,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/blog",
+      "file": "site/blog/index.html",
+      "bytes": 75414,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/build/assets/app-BNHGzqmf.js",
+      "file": "site/build/assets/app-BNHGzqmf.js",
+      "bytes": 186357,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/build/assets/app-BTeufEwW.css",
+      "file": "site/build/assets/app-BTeufEwW.css",
+      "bytes": 171416,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/build/assets/home-CIjlO5Ws.js",
+      "file": "site/build/assets/home-CIjlO5Ws.js",
+      "bytes": 14889,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/build/assets/map-data-BIkaf5qX.js",
+      "file": "site/build/assets/map-data-BIkaf5qX.js",
+      "bytes": 13433,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/contact",
+      "file": "site/contact/index.html",
+      "bytes": 43905,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/custom-erp-guide",
+      "file": "site/custom-erp-guide/index.html",
+      "bytes": 36064,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/custom-erp-system",
+      "file": "site/custom-erp-system/index.html",
+      "bytes": 59238,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/faq",
+      "file": "site/faq/index.html",
+      "bytes": 42483,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/favicon.ico",
+      "file": "site/favicon.ico",
+      "bytes": 4970,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/industries",
+      "file": "site/industries/index.html",
+      "bytes": 43809,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/mobile-app-development",
+      "file": "site/mobile-app-development/index.html",
+      "bytes": 56418,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/online-platform-development",
+      "file": "site/online-platform-development/index.html",
+      "bytes": 56324,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/privacy-policy",
+      "file": "site/privacy-policy/index.html",
+      "bytes": 33588,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/projects",
+      "file": "site/projects/index.html",
+      "bytes": 44107,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/projects/corporate-websites",
+      "file": "site/projects/corporate-websites/index.html",
+      "bytes": 53740,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/projects/fitcom-gym-app",
+      "file": "site/projects/fitcom-gym-app/index.html",
+      "bytes": 56413,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/projects/travel-agency-erp",
+      "file": "site/projects/travel-agency-erp/index.html",
+      "bytes": 52230,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/projects/waste-management-erp",
+      "file": "site/projects/waste-management-erp/index.html",
+      "bytes": 55828,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/services",
+      "file": "site/services/index.html",
+      "bytes": 47339,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/website-design",
+      "file": "site/website-design/index.html",
+      "bytes": 56639,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/alam-do.webp",
+      "file": "site/assets/img/alam-do.webp",
+      "bytes": 45568,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/alam-excel-1.webp",
+      "file": "site/assets/img/alam-excel-1.webp",
+      "bytes": 17552,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/alam-excel-2.webp",
+      "file": "site/assets/img/alam-excel-2.webp",
+      "bytes": 19436,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/alam-paper.webp",
+      "file": "site/assets/img/alam-paper.webp",
+      "bytes": 12380,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/alam-scan.webp",
+      "file": "site/assets/img/alam-scan.webp",
+      "bytes": 22970,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/aurora-add-booking.webp",
+      "file": "site/assets/img/aurora-add-booking.webp",
+      "bytes": 17670,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/aurora-booking-detail.webp",
+      "file": "site/assets/img/aurora-booking-detail.webp",
+      "bytes": 17590,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/aurora-bookings.webp",
+      "file": "site/assets/img/aurora-bookings.webp",
+      "bytes": 33708,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/aurora-dashboard.webp",
+      "file": "site/assets/img/aurora-dashboard.webp",
+      "bytes": 12860,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/aurora-hero.webp",
+      "file": "site/assets/img/aurora-hero.webp",
+      "bytes": 89132,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/aurora-vehicles.webp",
+      "file": "site/assets/img/aurora-vehicles.webp",
+      "bytes": 28178,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/fitcom-benefits.webp",
+      "file": "site/assets/img/fitcom-benefits.webp",
+      "bytes": 42790,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/fitcom-checkin.webp",
+      "file": "site/assets/img/fitcom-checkin.webp",
+      "bytes": 80498,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/fitcom-class.webp",
+      "file": "site/assets/img/fitcom-class.webp",
+      "bytes": 52582,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/fitcom-community.webp",
+      "file": "site/assets/img/fitcom-community.webp",
+      "bytes": 76068,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/fitcom-hero.webp",
+      "file": "site/assets/img/fitcom-hero.webp",
+      "bytes": 87260,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/fitcom-leaderboard.webp",
+      "file": "site/assets/img/fitcom-leaderboard.webp",
+      "bytes": 42756,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/fitcom-portal-2.webp",
+      "file": "site/assets/img/fitcom-portal-2.webp",
+      "bytes": 116654,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/fitcom-profile.webp",
+      "file": "site/assets/img/fitcom-profile.webp",
+      "bytes": 43796,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/fitcom-program.webp",
+      "file": "site/assets/img/fitcom-program.webp",
+      "bytes": 47186,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/fitcom-splash.webp",
+      "file": "site/assets/img/fitcom-splash.webp",
+      "bytes": 24278,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/mobile-phones.webp",
+      "file": "site/assets/img/mobile-phones.webp",
+      "bytes": 74760,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/platform-hanzi.webp",
+      "file": "site/assets/img/platform-hanzi.webp",
+      "bytes": 46698,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/ricky-cutout.webp",
+      "file": "site/assets/img/ricky-cutout.webp",
+      "bytes": 73564,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/ricky.webp",
+      "file": "site/assets/img/ricky.webp",
+      "bytes": 53408,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/travel-before.webp",
+      "file": "site/assets/img/travel-before.webp",
+      "bytes": 85088,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/travel-invoice.webp",
+      "file": "site/assets/img/travel-invoice.webp",
+      "bytes": 45188,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/travel-login.webp",
+      "file": "site/assets/img/travel-login.webp",
+      "bytes": 43336,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/travel-report.webp",
+      "file": "site/assets/img/travel-report.webp",
+      "bytes": 41590,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/travel-tours.webp",
+      "file": "site/assets/img/travel-tours.webp",
+      "bytes": 33796,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/waste-before.webp",
+      "file": "site/assets/img/waste-before.webp",
+      "bytes": 42144,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/waste-dashboard.webp",
+      "file": "site/assets/img/waste-dashboard.webp",
+      "bytes": 47352,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/waste-inventory-detail.webp",
+      "file": "site/assets/img/waste-inventory-detail.webp",
+      "bytes": 47478,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/waste-inventory.webp",
+      "file": "site/assets/img/waste-inventory.webp",
+      "bytes": 44906,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/waste-overtime.webp",
+      "file": "site/assets/img/waste-overtime.webp",
+      "bytes": 62978,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/waste-sales.webp",
+      "file": "site/assets/img/waste-sales.webp",
+      "bytes": 50172,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/waste-so.webp",
+      "file": "site/assets/img/waste-so.webp",
+      "bytes": 53108,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/web-alpha-carbons.webp",
+      "file": "site/assets/img/web-alpha-carbons.webp",
+      "bytes": 76274,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/web-axvision.webp",
+      "file": "site/assets/img/web-axvision.webp",
+      "bytes": 54084,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/web-eco-fresh.webp",
+      "file": "site/assets/img/web-eco-fresh.webp",
+      "bytes": 106348,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/web-hpe.webp",
+      "file": "site/assets/img/web-hpe.webp",
+      "bytes": 114900,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/web-jlee.webp",
+      "file": "site/assets/img/web-jlee.webp",
+      "bytes": 58156,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/web-luvera.webp",
+      "file": "site/assets/img/web-luvera.webp",
+      "bytes": 59228,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/web-pro-eco-health.webp",
+      "file": "site/assets/img/web-pro-eco-health.webp",
+      "bytes": 118954,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/web-quuma.webp",
+      "file": "site/assets/img/web-quuma.webp",
+      "bytes": 48618,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/web-stmt.webp",
+      "file": "site/assets/img/web-stmt.webp",
+      "bytes": 131304,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/web-sunrise-terraces.webp",
+      "file": "site/assets/img/web-sunrise-terraces.webp",
+      "bytes": 89894,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/web-synchong-hoe.webp",
+      "file": "site/assets/img/web-synchong-hoe.webp",
+      "bytes": 105260,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/assets/img/web-than-goh.webp",
+      "file": "site/assets/img/web-than-goh.webp",
+      "bytes": 35250,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/blog/choose-software-development-company-malaysia",
+      "file": "site/blog/choose-software-development-company-malaysia/index.html",
+      "bytes": 71179,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/blog/lhdn-e-invoice-business-system",
+      "file": "site/blog/lhdn-e-invoice-business-system/index.html",
+      "bytes": 70747,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/blog/native-app-react-native-or-pwa",
+      "file": "site/blog/native-app-react-native-or-pwa/index.html",
+      "bytes": 70077,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/blog/online-booking-membership-system-guide",
+      "file": "site/blog/online-booking-membership-system-guide/index.html",
+      "bytes": 69509,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/blog/outgrown-excel-signs",
+      "file": "site/blog/outgrown-excel-signs/index.html",
+      "bytes": 68884,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/blog/website-seo-ai-search-malaysia",
+      "file": "site/blog/website-seo-ai-search-malaysia/index.html",
+      "bytes": 68028,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/build/assets/about-Bkez2bWc.js",
+      "file": "site/build/assets/about-Bkez2bWc.js",
+      "bytes": 7192,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/build/assets/blog-CRIzq7I7.js",
+      "file": "site/build/assets/blog-CRIzq7I7.js",
+      "bytes": 12755,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/build/assets/blog-CU70Ptm0.css",
+      "file": "site/build/assets/blog-CU70Ptm0.css",
+      "bytes": 29943,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/build/assets/contact-B8-Z9Vyt.js",
+      "file": "site/build/assets/contact-B8-Z9Vyt.js",
+      "bytes": 6505,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/build/assets/contact-C8Cq_D9N.css",
+      "file": "site/build/assets/contact-C8Cq_D9N.css",
+      "bytes": 75807,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/build/assets/pages-CCS7nnQc.js",
+      "file": "site/build/assets/pages-CCS7nnQc.js",
+      "bytes": 2413,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/build/assets/services-CTbjYNp6.js",
+      "file": "site/build/assets/services-CTbjYNp6.js",
+      "bytes": 11956,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/build/assets/services-DCDrqpJP.css",
+      "file": "site/build/assets/services-DCDrqpJP.css",
+      "bytes": 28005,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/build/assets/work-CmEh0fbb.js",
+      "file": "site/build/assets/work-CmEh0fbb.js",
+      "bytes": 6844,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/build/assets/work-CwfcuvAt.css",
+      "file": "site/build/assets/work-CwfcuvAt.css",
+      "bytes": 24652,
+      "page": false
+    },
+    {
+      "url": "https://potadot.com.my/projects/aurora-car-rental",
+      "file": "site/projects/aurora-car-rental/index.html",
+      "bytes": 54792,
+      "page": true
+    },
+    {
+      "url": "https://potadot.com.my/build/assets/maplibre-gl-BSCK7p18.js",
+      "file": "site/build/assets/maplibre-gl-BSCK7p18.js",
+      "bytes": 1053439,
+      "page": false
+    }
+  ],
+  "unfetched": [],
+  "ignored_parser_false_positives": [
+    "https://potadot.com.my/build/assets/%23n",
+    "https://potadot.com.my/build/assets/e,i,s",
+    "https://potadot.com.my/build/assets/this.tiles,this.map.getPixelRatio("
+  ]
+}

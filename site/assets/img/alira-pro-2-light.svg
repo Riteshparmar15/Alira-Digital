@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="200" height="48" fill="none">
+  <!-- Mark: Dual Chevron Geometric 'A' -->
+  <g transform="translate(6, 7)">
+    <!-- Primary chevron (left & apex) -->
+    <path d="M17 2 L3 32 L10 32 L17 16 L24 32 L31 32 L17 2 Z" fill="#FFFFFF" />
+    <!-- Inner upward accent chevron (light / momentum) -->
+    <path d="M17 9 L9 25 L13 25 L17 17 L21 25 L25 25 L17 9 Z" fill="#10B981" />
+  </g>
+  <!-- Wordmark: Clean, confident, corporate -->
+  <text x="48" y="27" font-family="'Outfit', -apple-system, sans-serif" font-weight="800" font-size="20" letter-spacing="1" fill="#FFFFFF">ALIRA<tspan fill="#10B981" font-weight="400">.</tspan></text>
+  <text x="48" y="38" font-family="'Figtree', -apple-system, sans-serif" font-weight="600" font-size="8" letter-spacing="2.5" fill="#10B981">DIGITAL SOLUTIONS</text>
+</svg>

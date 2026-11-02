@@ -1,0 +1,61 @@
+{
+  "pages": 26,
+  "missing_local_references": [],
+  "analytics_removed": true,
+  "javascript_syntax": [
+    {
+      "file": "site/local-demo.js",
+      "passed": true
+    },
+    {
+      "file": "site/build/assets/app-BNHGzqmf.js",
+      "passed": true
+    },
+    {
+      "file": "site/build/assets/work-CmEh0fbb.js",
+      "passed": true
+    },
+    {
+      "file": "site/build/assets/services-CTbjYNp6.js",
+      "passed": true
+    },
+    {
+      "file": "site/build/assets/maplibre-gl-BSCK7p18.js",
+      "passed": true
+    },
+    {
+      "file": "site/build/assets/about-Bkez2bWc.js",
+      "passed": true
+    },
+    {
+      "file": "site/build/assets/map-data-BIkaf5qX.js",
+      "passed": true
+    },
+    {
+      "file": "site/build/assets/home-CIjlO5Ws.js",
+      "passed": true
+    },
+    {
+      "file": "site/build/assets/blog-CRIzq7I7.js",
+      "passed": true
+    },
+    {
+      "file": "site/build/assets/pages-CCS7nnQc.js",
+      "passed": true
+    },
+    {
+      "file": "site/build/assets/contact-B8-Z9Vyt.js",
+      "passed": true
+    }
+  ],
+  "browser_checks": [
+    "Desktop homepage visually checked against reference",
+    "Homepage audience tab changes aria-selected to true"
+  ],
+  "limits": [
+    "Mobile viewport not interactively tested",
+    "Not every UI interaction tested",
+    "Contact map needs internet",
+    "Bulk HTTP route check unavailable in executor; browser homepage verified"
+  ]
+}
