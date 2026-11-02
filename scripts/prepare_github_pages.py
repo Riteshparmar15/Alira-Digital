@@ -27,7 +27,7 @@ def main():
     html_files = [f for f in glob.glob("**/*.html", recursive=True) if not f.startswith(".")]
 
     attr_pattern = re.compile(
-        r'((?:href|src|content|url)=")(/(?!/|assets|build|about|services|projects|areas|custom|online|mobile|website|industries|faq|contact|privacy|blog|favicon|apple|local-demo)[^"]*|/(?:assets|build|about-us|services|projects|areas-we-serve|custom-erp-system|online-platform-development|mobile-app-development|website-design|custom-erp-guide|industries|faq|contact|privacy-policy|blog|favicon\.ico|apple-touch-icon\.png|local-demo\.js)[^"]*)(")'
+        r'((?:href|src|content|url)=")(/(?!/|assets|build|about|services|projects|areas|custom|online|mobile|website|industries|faq|contact|privacy|blog|favicon|apple|local-demo)[^"]*|/(?:assets|build|about-us|services|projects|areas-we-serve|custom-erp-system|online-platform-development|mobile-app-development|website-design|custom-erp-guide|industries|faq|contact|privacy-policy|blog|favicon\.ico|favicon\.svg|apple-touch-icon\.png|local-demo\.js)[^"]*)(")'
     )
 
     updated_count = 0
